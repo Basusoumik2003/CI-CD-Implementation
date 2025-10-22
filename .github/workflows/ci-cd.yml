@@ -17,11 +17,7 @@ jobs:
         with:
           node-version: "18"
 
-      - name: Install dependencies (client)
-        run: |
-          cd devops-portfolio
-          npm install
-          npm run build
+    
 
       - name: Install dependencies (server)
         run: |
