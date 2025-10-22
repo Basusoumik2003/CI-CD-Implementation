@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies (client)
         run: |
-          cd client
+          cd devops-portfolio
           npm install
           npm run build
 
